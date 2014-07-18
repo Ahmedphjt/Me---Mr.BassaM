@@ -1,0 +1,13 @@
+C:\Users\PhJt\Desktop\todolist1\todolist\bin\Debug\todolist.exe.config
+C:\Users\PhJt\Desktop\todolist1\todolist\bin\Debug\todolist.exe
+C:\Users\PhJt\Desktop\todolist1\todolist\bin\Debug\todolist.pdb
+C:\Users\PhJt\Desktop\todolist1\todolist\obj\Debug\todolist.csprojResolveAssemblyReference.cache
+C:\Users\PhJt\Desktop\todolist1\todolist\obj\Debug\MainWindow.baml
+C:\Users\PhJt\Desktop\todolist1\todolist\obj\Debug\MainWindow.g.cs
+C:\Users\PhJt\Desktop\todolist1\todolist\obj\Debug\App.g.cs
+C:\Users\PhJt\Desktop\todolist1\todolist\obj\Debug\todolist_MarkupCompile.cache
+C:\Users\PhJt\Desktop\todolist1\todolist\obj\Debug\todolist.g.resources
+C:\Users\PhJt\Desktop\todolist1\todolist\obj\Debug\todolist.Properties.Resources.resources
+C:\Users\PhJt\Desktop\todolist1\todolist\obj\Debug\todolist.csproj.GenerateResource.Cache
+C:\Users\PhJt\Desktop\todolist1\todolist\obj\Debug\todolist.exe
+C:\Users\PhJt\Desktop\todolist1\todolist\obj\Debug\todolist.pdb
