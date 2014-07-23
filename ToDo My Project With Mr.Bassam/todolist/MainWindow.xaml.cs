@@ -31,15 +31,34 @@ namespace todolist
         public MainWindow()
         {
             InitializeComponent();
+            this.WindowStartupLocation = System.Windows.WindowStartupLocation.CenterScreen; // start the form in the middle os screen 
+
+            ComboBox compo = new ComboBox();
+            Compo.Items.Remove("Compo");
+            Compo.Items.Add("Low");
+            Compo.Items.Add("Medium");
+            Compo.Items.Add("High");
+            
+
+           
         }
 
         protected void ButtonClick(object sender, RoutedEventArgs e)
         {
-            
+             
 
-            if (NewTodo.Text == String.Empty)
+            // is the the user enter an empty text or white space 
+
+            
+            string N = NewTodo.Text;
+            if (String.IsNullOrWhiteSpace(N))
             {
-                MessageBox.Show("Helpful message !! ");
+                MessageBox.Show("Please Enter a Valid Text Name ");
+            }
+                // handle priority 
+            else if (Compo.SelectedItem==null)
+            {
+                MessageBox.Show("Please Enter the priority ");
             }
 
             else
@@ -48,14 +67,15 @@ namespace todolist
                 CheckBox checkbox = new CheckBox();
                 checkbox.Content = input;
                 List.Items.Add(checkbox);
-            }      
+                NewTodo.Clear();
+            }
 
-
+            Compo.SelectedIndex = Compo.Items.IndexOf("Low");
             
             
 
         }
 
-
+       
     }
 }
